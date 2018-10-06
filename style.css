@@ -24,22 +24,22 @@ h1 {
     text-align:center;
     margin-bottom:15px;
 }
-h1:hover {
+/* h1:hover {
     background-color: #4F57CD;
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #333;
-}
+} */
 h3 {
     font-size: 17px;
     color: #606060;
     text-align:center;
     margin-bottom:15px;
 }
-h3:hover {
+/* h3:hover {
     background-color: #4F57CD;
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #333;
-}
+} */
 /* Titles of categories */
 h2 {
     color: #606060;
@@ -54,11 +54,11 @@ h2:before {
     height: 10px;
     background-color: #7F84DA;
 }
-h2:hover {
+/* h2:hover {
     background-color: #4F57CD;
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #333;
-}
+} */
 
 /* Definitions */
 dt {
@@ -92,6 +92,18 @@ a:hover, a:active {
     text-shadow: 1px 1px 1px #333;
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Horizontal separators */
 hr {
 
@@ -106,16 +118,4 @@ hr {
 ul style {
   list-style-type: disc;
 
-}
-
-.column {
-    float: left;
-    width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
